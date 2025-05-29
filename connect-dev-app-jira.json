@@ -52,5 +52,5 @@
             { "event": "worklog_deleted", "url": "/webhook" }
         ]
     },
-    "scopes": ["read", "ACCESS_EMAIL_ADDRESSES"]
+    "scopes": ["read"]
 }
