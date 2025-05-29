@@ -6,7 +6,7 @@
         "name": "OrgSignals",
         "url": "https://www.orgsignals.com"
     },
-    "baseUrl": "https://sigauth.orgsignals.com/events/jira",
+    "baseUrl": "https://sigauth.share.zrok.io/events/jira",
     "authentication": {
         "type": "jwt"
     },
