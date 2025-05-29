@@ -1,6 +1,6 @@
 {
-    "key": "orgsignals-jira-dev_app",
-    "name": "orgsignals-jira-dev_app",
+    "key": "orgsignals-jira-dev-app",
+    "name": "orgsignals-jira-dev-app",
     "description": "Provides Engineering Insights",
     "vendor": {
         "name": "OrgSignals",
