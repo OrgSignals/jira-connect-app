@@ -49,7 +49,16 @@
             { "event": "comment_deleted", "url": "/webhook" },
             { "event": "worklog_created", "url": "/webhook" },
             { "event": "worklog_updated", "url": "/webhook" },
-            { "event": "worklog_deleted", "url": "/webhook" }
+            { "event": "worklog_deleted", "url": "/webhook" },
+            { "event": "sprint_created", "url": "/webhook" },
+            { "event": "sprint_deleted", "url": "/webhook" },
+            { "event": "sprint_updated", "url": "/webhook" },
+            { "event": "sprint_started", "url": "/webhook" },
+            { "event": "sprint_closed", "url": "/webhook" },
+            { "event": "board_updated", "url": "/webhook" },
+            { "event": "board_created", "url": "/webhook" },
+            { "event": "board_deleted", "url": "/webhook" },
+            { "event": "board_configuration_changed", "url": "/webhook" }
         ]
     },
     "scopes": ["read", "write", "act_as_user", "ACCESS_EMAIL_ADDRESSES"]
