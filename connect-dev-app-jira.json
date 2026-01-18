@@ -64,7 +64,6 @@
             { "event": "jira:version_moved", "url": "/webhook" },
             { "event": "jira:version_updated", "url": "/webhook" },
             { "event": "jira:version_deleted", "url": "/webhook" }
-            
         ]
     },
     "scopes": ["read", "write", "act_as_user", "ACCESS_EMAIL_ADDRESSES"]
