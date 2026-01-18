@@ -20,8 +20,7 @@
         "gdpr": true,
         "signed-install": true
     },
-    "modules": {
-        "webhooks": [
+    "webhooks": [
             { "event": "jira:issue_created", "url": "/webhook" },
             { "event": "jira:issue_deleted", "url": "/webhook" },
             { "event": "jira:issue_updated", "url": "/webhook" },
@@ -58,8 +57,15 @@
             { "event": "board_updated", "url": "/webhook" },
             { "event": "board_created", "url": "/webhook" },
             { "event": "board_deleted", "url": "/webhook" },
-            { "event": "board_configuration_changed", "url": "/webhook" }
+            { "event": "board_configuration_changed", "url": "/webhook" },
+            { "event": "jira:version_released", "url": "/webhook" },
+            { "event": "jira:version_unreleased", "url": "/webhook" },
+            { "event": "jira:version_created", "url": "/webhook" },
+            { "event": "jira:version_moved", "url": "/webhook" },
+            { "event": "jira:version_updated", "url": "/webhook" },
+            { "event": "jira:version_deleted", "url": "/webhook" }
+            
         ]
     },
-    "scopes": ["read", "act_as_user"]
+    "scopes": ["read", "write", "act_as_user", "ACCESS_EMAIL_ADDRESSES"]
 }
