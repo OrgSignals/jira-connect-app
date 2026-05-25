@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="orgsignals-jira-dc-plugin-1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/orgsignals-jira-dc-plugin-1.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
